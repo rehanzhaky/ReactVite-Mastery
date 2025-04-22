@@ -1,12 +1,11 @@
 import React from "react";
 
+// Apa itu Props?
 const Props = (props) => {
   return (
-    <>
-      <h1>
-        {props.message} {props.name}
-      </h1>
-    </>
+    <div>
+      <h1>{props.message} {props.name}</h1>
+    </div>
   );
 };
 
