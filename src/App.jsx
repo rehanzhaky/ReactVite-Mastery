@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Props from "./components/Props";
-import DestructuringProps from "./components/DestructuringProps";
-import ImmutabilityOfProps from "./components/ImmutabilityOfProps";
+import Props from "./belajar/Props";
+import DestructuringProps from "./belajar/DestructuringProps";
+import ImmutabilityOfProps from "./belajar/ImmutabilityOfProps";
+import PassingArray from "./belajar/PassingArray";
 
 const App = () => {
+  // List of Arrays
+  const seatNumber = [1, 2, 3];
   return (
     <>
       <Navbar />
@@ -16,6 +19,8 @@ const App = () => {
       <DestructuringProps age="23" job="Software Engineer" />
       {/* Props bersifat immutable, tidak dapat di reassigned */}
       <ImmutabilityOfProps learn="React" with="codestoic" />
+      {/* Mencoba untuk Passing Array */}
+      <PassingArray busName="Jaya Abadi Bus" seatNumber={seatNumber}/>
     </>
   );
 };
