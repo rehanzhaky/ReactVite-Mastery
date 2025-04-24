@@ -13,7 +13,7 @@ const App = () => {
 
   // Object
   const book = {
-    title: "Atomic Habits",
+    title: "Atomic Habitss",
     author: "James Clear",
     famousQuotes:
       "There are no good or bad habits, There are only effective habits",

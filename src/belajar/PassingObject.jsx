@@ -5,7 +5,7 @@ const PassingObject = ({ favThing }) => {
     <div>
       <h1>
         I really love to read the {favThing.title}, the best book in the world
-        from 
+        from
         {favThing.author}, and i remember one quote from that book is
         {favThing.famousQuotes}
       </h1>
